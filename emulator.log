@@ -1,0 +1,734 @@
+user1@my_pc:/$ ls
+virtual_fsuser1@my_pc:/$ cd virtual_fs
+user1@my_pc:virtual_fs/$ ls
+
+virtual_fsuser1@my_pc:virtual_fs/$ cd virtual_fs
+user1@my_pc:virtual_fs/virtual_fs/$ ls
+
+rootuser1@my_pc:virtual_fs/virtual_fs/$ cd root
+user1@my_pc:virtual_fs/virtual_fs/root/$ ls
+
+usersuser1@my_pc:virtual_fs/virtual_fs/root/$ exit
+Exiting emulator...user1@my_pc:/$ ls
+virtual_fs
+user1@my_pc:/$ cd virtual_Fs
+Error: directory not found.
+user1@my_pc:/$ cd virtual_fs
+
+user1@my_pc:virtual_fs/$ ls
+
+virtual_fs
+user1@my_pc:virtual_fs/$ cd virtual_fs
+
+user1@my_pc:/$ ls
+virtual_fs
+user1@my_pc:/$ cd virtual_fs
+
+user1@my_pc:virtual_fs/$ ls
+
+virtual_fs
+user1@my_pc:/$ ls
+virtual_fs
+user1@my_pc:/$ ls
+virtual_fs
+user1@my_pc:/$ cd virtual_fs
+
+user1@my_pc:virtual_fs/$ ls
+
+virtual_fs
+user1@my_pc:virtual_fs/$ cd virtual_fs
+
+user1@my_pc:virtual_fs/virtual_fs/$ ls
+
+root
+user1@my_pc:virtual_fs/virtual_fs/$ cd root
+
+user1@my_pc:/$ ls
+virtual_fs
+user1@my_pc:/$ cd virtual_fs
+
+user1@my_pc:virtual_fs/$ ls
+
+virtual_fs
+user1@my_pc:virtual_fs/$ cd virtual_Fs
+Error: directory not found.
+user1@my_pc:/$ ls
+virtual_fs
+user1@my_pc:/$ cd virtual_fs
+
+user1@my_pc:virtual_fs/$ ls
+
+virtual_fs
+user1@my_pc:/$ ls
+virtual_fs
+user1@my_pc:/$ ls
+virtual_fs
+user1@my_pc:/$ cd virtual_fs
+
+user1@my_pc:virtual_fs/$ ls
+
+virtual_fs
+user1@my_pc:virtual_fs/$ cd virtual_fs
+
+user1@my_pc:virtual_fs/virtual_fs/$ ls
+
+root
+user1@my_pc:/$ ls
+virtual_fs
+user1@my_pc:/$ dkd
+Unknown command.
+user1@my_pc:/$ kdkf
+Unknown command.
+user1@my_pc:/$ dlld
+Unknown command.
+user1@my_pc:/$ дв
+Unknown command.
+user1@my_pc:/$ ls
+virtual_fs
+user1@my_pc:/$ ls
+virtual_fs
+user1@my_pc:/$ ls
+virtual_fs
+user1@my_pc:/$ ls
+virtual_fs
+user1@my_pc:/$ cd kd
+Error: directory not found.
+user1@my_pc:/$ cd 
+
+user1@my_pc:/$ ls
+virtual_fs
+user1@my_pc:/$ cd virtual_fs
+
+user1@my_pc:virtual_fs/$ ls
+
+virtual_fs
+user1@my_pc:/$ ls
+virtual_fs
+user1@my_pc:/$ cd virtual_fs
+
+user1@my_pc:virtual_fs/$ ls
+
+virtual_fs
+user1@my_pc:/$ ls
+virtual_fs
+user1@my_pc:/$ cd virtual_fs
+
+user1@my_pc:virtual_fs/$ ls
+
+virtual_fs
+user1@my_pc:virtual_fs/$ cd virtual_fs
+
+user1@my_pc:virtual_fs/virtual_fs/$ ls
+
+root
+user1@my_pc:virtual_fs/virtual_fs/$ cd root
+
+user1@my_pc:virtual_fs/virtual_fs/root/$ ls
+
+users
+user1@my_pc:virtual_fs/virtual_fs/root/$ cd users
+
+user1@my_pc:virtual_fs/virtual_fs/root/users/$ ls
+
+user2
+user1@my_pc:virtual_fs/virtual_fs/root/users/$ cd user2
+
+user1@my_pc:virtual_fs/virtual_fs/root/users/user2/$ ls
+
+user1@my_pc:virtual_fs/virtual_fs/root/users/user2/$ cd ..
+
+user1@my_pc:/$ ls
+virtual_fs
+user1@my_pc:/$ cd virtual)fs
+Error: directory not found.
+user1@my_pc:/$ cd virtual_fs
+
+user1@my_pc:virtual_fs/$ ls
+
+virtual_fs
+user1@my_pc:virtual_fs/$ cd virtual_fs
+
+user1@my_pc:virtual_fs/virtual_fs/$ ls
+
+root
+user1@my_pc:virtual_fs/virtual_fs/$ cd root
+
+user1@my_pc:virtual_fs/virtual_fs/root/$ ls
+
+users
+user1@my_pc:virtual_fs/virtual_fs/root/$ cd users
+
+user1@my_pc:virtual_fs/virtual_fs/root/users/$ cd ..
+
+user1@my_pc:virtual_fs/virtual_fs/root/$ exit
+Exiting emulator...
+user1@my_pc:/$ cd virtual_fs
+
+user1@my_pc:virtual_fs/$ cd virtual_fs
+
+user1@my_pc:virtual_fs/virtual_fs/$ cd ..
+
+user1@my_pc:/$ ls
+virtual_fs
+user1@my_pc:/$ ls
+virtual_fs
+user1@my_pc:/$ ls
+virtual_fs
+user1@my_pc:/$ ls
+virtual_fs
+user1@my_pc:/$ ls
+virtual_fs
+user1@my_pc:/$ cd l
+Error: directory not found.
+user1@my_pc:/$ rmdir
+Error: rmdir command requires an argument.
+user1@my_pc:/$ ls
+virtual_fs
+user1@my_pc:/$ ls
+virtual_fs
+user1@my_pc:/$ cd virtual_fs
+
+user1@my_pc:virtual_fs/$ ls
+
+virtual_fs
+user1@my_pc:virtual_fs/$ cd virtual_f
+
+user1@my_pc:virtual_fs/virtual_f/$ ls
+Directory is empty.
+user1@my_pc:virtual_fs/virtual_f/$ ls
+Directory is empty.
+user1@my_pc:virtual_fs/virtual_f/$ cd ..
+
+user1@my_pc:virtual_fs/$ cd ..
+
+user1@my_pc:/$ ls
+virtual_fs
+user1@my_pc:/$ cd pg
+Error: directory not found.
+user1@my_pc:/$ ls
+virtual_fs
+user1@my_pc:/$ cd virtual_fs
+
+user1@my_pc:virtual_fs/$ ld
+Unknown command.
+user1@my_pc:virtual_fs/$ ls
+
+virtual_fs
+user1@my_pc:virtual_fs/$ cd dldl
+Error: directory not found.
+user1@my_pc:virtual_fs/$ ls
+
+virtual_fs
+user1@my_pc:virtual_fs/$ cd virtual
+
+user1@my_pc:virtual_fs/virtual/$ ls
+Directory is empty.
+user1@my_pc:virtual_fs/virtual/$ cd virtual_fs
+Error: directory not found.
+user1@my_pc:virtual_fs/virtual/$ ls
+Directory is empty.
+user1@my_pc:virtual_fs/virtual/$ ls
+Directory is empty.
+user1@my_pc:virtual_fs/virtual/$ cd ..
+
+user1@my_pc:virtual_fs/$ ls
+
+virtual_fs
+user1@my_pc:virtual_fs/$ cd virtual_fs
+
+user1@my_pc:virtual_fs/virtual_fs/$ ls
+
+root
+user1@my_pc:virtual_fs/virtual_fs/$ cd roooot
+Error: directory not found.
+user1@my_pc:virtual_fs/virtual_fs/$ cd ro
+
+user1@my_pc:virtual_fs/virtual_fs/ro/$ ls
+Directory is empty.
+user1@my_pc:virtual_fs/virtual_fs/ro/$ cd ..
+
+user1@my_pc:virtual_fs/virtual_fs/$ cd ..
+
+user1@my_pc:virtual_fs/$ ls
+
+virtual_fs
+user1@my_pc:virtual_fs/$ ls
+
+virtual_fs
+user1@my_pc:virtual_fs/$ ls virtual_fs
+
+root
+user1@my_pc:virtual_fs/$ ls vir
+tual_fs
+user1@my_pc:/$ ls
+virtual_fs
+user1@my_pc:/$ cd virtual_fs
+
+user1@my_pc:virtual_fs/$ cd ..
+
+user1@my_pc:/$ ls
+virtual_fs
+user1@my_pc:/$ cd virtual_fs
+
+user1@my_pc:virtual_fs/$ ls
+
+virtual_fs
+user1@my_pc:virtual_fs/$ cd virtual_fs
+
+user1@my_pc:virtual_fs/virtual_fs/$ ls
+
+root
+user1@my_pc:virtual_fs/virtual_fs/$ ls root
+
+users
+user1@my_pc:virtual_fs/virtual_fs/$ cd ..
+
+user1@my_pc:/$ ls
+virtual_fs
+user1@my_pc:/$ cd virtual_fs
+
+user1@my_pc:virtual_fs/$ ls
+
+virtual_fs
+user1@my_pc:virtual_fs/$ cd virtual_fs
+
+user1@my_pc:virtual_fs/virtual_fs/$ ls
+
+root
+user1@my_pc:virtual_fs/virtual_fs/$ cd root
+
+user1@my_pc:virtual_fs/virtual_fs/root/$ ls
+
+users
+user1@my_pc:virtual_fs/virtual_fs/root/$ cd ..
+
+user1@my_pc:virtual_fs/virtual_fs/$ cd ..
+
+user1@my_pc:virtual_fs/$ ls
+
+virtual_fs
+user1@my_pc:virtual_fs/$ cd ..
+
+user1@my_pc:/$ cd ..
+
+user1@my_pc:/$ cd ..
+
+user1@my_pc:/$ ls
+virtual_fs
+user1@my_pc:/$ cd virtual_fs
+
+user1@my_pc:virtual_fs/$ ls
+
+virtual_fs
+user1@my_pc:virtual_fs/$ ls
+
+virtual_fs
+user1@my_pc:virtual_fs/$ cd virtual_fs
+
+user1@my_pc:/$ ls
+virtual_fs
+user1@my_pc:/$ cd virtual_fs
+
+user1@my_pc:virtual_fs/$ cd ..
+
+user1@my_pc:/$ cd ..
+
+user1@my_pc:/$ ls
+virtual_fs
+user1@my_pc:/$ cd virtual_fs
+
+user1@my_pc:virtual_fs/$ ls
+
+virtual_fs
+user1@my_pc:virtual_fs/$ cd virtual_fs
+
+user1@my_pc:virtual_fs/virtual_fs/$ ls
+
+root
+user1@my_pc:virtual_fs/virtual_fs/$ cd root
+
+user1@my_pc:virtual_fs/virtual_fs/root/$ cd ..
+
+user1@my_pc:virtual_fs/virtual_fs/$ cd ll
+Error: directory not found.
+user1@my_pc:virtual_fs/virtual_fs/$ cd ..
+
+user1@my_pc:virtual_fs/$ cd ..
+
+user1@my_pc:/$ ls
+virtual_fs
+user1@my_pc:/$ cd virtual_fs
+
+user1@my_pc:virtual_fs/$ ls 
+
+virtual_fs
+user1@my_pc:virtual_fs/$ cd virtual_fs
+
+user1@my_pc:virtual_fs/virtual_fs/$ ls
+
+root
+user1@my_pc:virtual_fs/virtual_fs/$ cd root
+
+user1@my_pc:virtual_fs/virtual_fs/root/$ ls
+
+users
+user1@my_pc:virtual_fs/virtual_fs/root/$ cd ..
+
+user1@my_pc:virtual_fs/virtual_fs/$ cd ..
+
+user1@my_pc:virtual_fs/$ cd ..
+
+user1@my_pc:/$ cd ..
+
+user1@my_pc:/$ ls
+virtual_fs
+user1@my_pc:/$ cd vir
+
+user1@my_pc:vir/$ ls
+Directory is empty.
+user1@my_pc:/$ ls
+virtual_fs
+user1@my_pc:virtual_fs/$ cd virtual_fs
+user1@my_pc:virtual_fs/$ ls
+
+virtual_fs
+user1@my_pc:virtual_fs/vir/$ cd vir
+user1@my_pc:virtual_fs/vir/$ ls
+Directory is empty.
+user1@my_pc:/$ ks
+Unknown command.
+user1@my_pc:/$ ls
+virtual_fs
+user1@my_pc:/$ rmdir vir
+Error: directory not found.
+user1@my_pc:/$ ls
+virtual_fs
+user1@my_pc:virtual_fs/$ cd virtual_fs
+user1@my_pc:virtual_fs/$ ls
+
+virtual_fs
+user1@my_pc:virtual_fs/virtual_fs/$ cd virtual_fs
+user1@my_pc:virtual_fs/virtual_fs/$ ls
+
+root
+user1@my_pc:virtual_fs/virtual_fs/$ rmdir ro
+Error: directory not found.
+user1@my_pc:virtual_fs/virtual_fs/root/$ cd root
+user1@my_pc:virtual_fs/virtual_fs/root/$ ls
+
+users
+user1@my_pc:virtual_fs/virtual_fs/root/users/$ cd users
+user1@my_pc:virtual_fs/virtual_fs/root/users/$ ls
+
+user2
+user1@my_pc:virtual_fs/virtual_fs/root/users/$ rmdir use
+Error: directory not found.
+user1@my_pc:virtual_fs/virtual_fs/root/users/$ rmdir user2
+Directory 'user2' has been removed.
+user1@my_pc:virtual_fs/virtual_fs/root/users/$ ks
+Unknown command.
+user1@my_pc:virtual_fs/virtual_fs/root/users/$ ls
+user1@my_pc:virtual_fs/virtual_fs/root/users/$ cd..
+Unknown command.
+user1@my_pc:virtual_fs/virtual_fs/root/$ cd ..
+user1@my_pc:/$ ls
+virtual_fs
+user1@my_pc:virtual_fs/$ cd virtual_fs
+user1@my_pc:virtual_fs/$ ls
+
+virtual_fs
+user1@my_pc:virtual_fs/vir/$ cd vir
+user1@my_pc:virtual_fs/vir/$ ls
+Directory is empty.
+user1@my_pc:/$ ls
+virtual_fs
+user1@my_pc:/$ cd
+Unknown command.
+user1@my_pc:/$ cd virtual_fs
+
+user1@my_pc:virtual_fs/$ ls
+
+virtual_fs
+user1@my_pc:virtual_fs/$ cd virtual_fs/virtual_fs
+Error: directory not found.
+user1@my_pc:virtual_fs/$ cd virtual_fs\virtual_fs
+Error: directory not found.
+user1@my_pc:virtual_fs/$ cd ..
+
+user1@my_pc:/$ cd virtual_fs
+
+user1@my_pc:virtual_fs/$ cd root
+Error: directory not found.
+user1@my_pc:virtual_fs/$ ls
+
+virtual_fs
+user1@my_pc:virtual_fs/$ cd virtual_fs
+
+user1@my_pc:virtual_fs/virtual_fs/$ ls
+
+root
+user1@my_pc:virtual_fs/virtual_fs/$ cd root
+
+user1@my_pc:virtual_fs/virtual_fs/root/$ cd ..
+
+user1@my_pc:virtual_fs/virtual_fs/$ cd..
+Unknown command.
+user1@my_pc:virtual_fs/virtual_fs/$ cd ..
+
+user1@my_pc:virtual_fs/$ cd 
+
+user1@my_pc:virtual_fs/$ .cd.
+Unknown command.
+user1@my_pc:virtual_fs/$ cd ..
+
+user1@my_pc:/$ cd .. 
+
+user1@my_pc:/$  cd ..
+Unknown command.
+user1@my_pc:/$ cd ..
+
+user1@my_pc:/$ cd ..
+
+user1@my_pc:/$ ls
+virtual_fs
+user1@my_pc:/$ exit
+Exiting emulator...
+user1@my_pc:/$ ls
+virtual_fs
+user1@my_pc:/$ cd virtual_fs
+
+user1@my_pc:virtual_fs/$ ls
+
+virtual_fs
+user1@my_pc:virtual_fs/$ cd virtual_fs
+
+user1@my_pc:virtual_fs/virtual_fs/$ ls
+
+root
+user1@my_pc:/$ ls
+virtual_fs
+user1@my_pc:/$ C:/Users/marka/Desktop/virtual_fs/virtual_fs/root/Test2/ExForDelOther.txt
+Unknown command.
+user1@my_pc:/$ ls
+Directory is empty.
+user1@my_pc:/$ ls
+zxc
+user1@my_pc:/$ cd zxc
+
+user1@my_pc:zxc/$ cd ..
+
+user1@my_pc:/$ cd ..
+
+user1@my_pc:/$ cd zxc
+
+user1@my_pc:zxc/$ cd root
+
+user1@my_pc:zxc/root/$ cd test
+Error: directory not found.
+user1@my_pc:zxc/root/$ ls
+
+Test1
+Test2
+Test3
+user1@my_pc:zxc/root/$ cd Test1
+
+user1@my_pc:zxc/root/Test1/$ ls
+
+ExForDel.txt
+ExForDel2.docx
+user1@my_pc:zxc/root/Test1/$ exit
+Exiting emulator...
+user1@my_pc:/$ sd
+Unknown command.
+user1@my_pc:/$ exit
+Exiting emulator...
+user1@my_pc:/$ ls
+zxc
+user1@my_pc:/$ cd zxc
+
+user1@my_pc:zxc/$ ls
+
+root
+user1@my_pc:zxc/$ cd root
+
+user1@my_pc:zxc/root/$ ls
+
+Test1
+Test2
+Test3
+user1@my_pc:zxc/root/$ cd Test1
+
+user1@my_pc:zxc/root/Test1/$ echo Hi
+user1@my_pc:zxc/root/Test1/$ ls
+
+ExForDel.txt
+ExForDel2.docx
+user1@my_pc:zxc/root/Test1/$ cat ExForDel.txt
+user1@my_pc:zxc/root/Test1/$ exit
+Exiting emulator...
+user1@my_pc:/$ ды
+Unknown command.
+user1@my_pc:/$ s
+Unknown command.
+user1@my_pc:/$ ls
+zxc
+user1@my_pc:/$ echo
+user1@my_pc:/$ echo f
+f
+user1@my_pc:/$ echo Hello
+Hello
+user1@my_pc:/$ s
+Unknown command.
+user1@my_pc:/$ echo d
+d
+user1@my_pc:/$ echo
+user1@my_pc:/$ echo dddf d
+user1@my_pc:/$ echo dfd
+dfd
+user1@my_pc:/$ echo d f
+user1@my_pc:/$ d
+Unknown command.
+user1@my_pc:/$ echo d
+d
+user1@my_pc:/$ echo d d
+user1@my_pc:/$ echo d d
+d
+user1@my_pc:/$ echo d d
+['echo']
+user1@my_pc:/$ echo d d
+['d', 'd']
+user1@my_pc:/$ echo d
+['d']
+user1@my_pc:/$ echo d 
+d
+user1@my_pc:/$ echo dd d
+dd
+user1@my_pc:/$ exit
+Exiting emulator...
+user1@my_pc:/$ ls
+zxc
+user1@my_pc:/$ cd zxc
+
+user1@my_pc:zxc/$ ls
+
+root
+user1@my_pc:zxc/$ cd root
+
+user1@my_pc:zxc/root/$ cd Test1
+
+user1@my_pc:zxc/root/Test1/$ ls
+
+ExForDel.txt
+ExForDel2.docx
+user1@my_pc:zxc/root/Test1/$ cat ExForDel.txt
+Contents of ExForDel.txt
+user1@my_pc:zxc/root/Test1/$ cd ..
+
+user1@my_pc:zxc/root/$ cd Test2
+
+user1@my_pc:zxc/root/Test2/$ ls
+
+ExForDelOther.txt
+ExForDelOther1.txt
+user1@my_pc:zxc/root/Test2/$ cat ExForDelOther.txt
+Contents of ExForDelOther.txt
+user1@my_pc:zxc/root/Test2/$ cat
+user1@my_pc:zxc/root/Test2/$ echo
+user1@my_pc:zxc/root/Test2/$ cat ExForDelOther1.txt
+Contents of ExForDelOther1.txt
+user1@my_pc:zxc/root/Test2/$ cat ExForDelOther1
+Error: file ExForDelOther1 not found.
+user1@my_pc:/$ ls
+zxc
+user1@my_pc:/$ cd zxc
+
+user1@my_pc:zxc/$ cd root
+
+user1@my_pc:zxc/root/$ cd Test2
+
+user1@my_pc:zxc/root/Test2/$ ls
+
+ExForDelOther.txt
+ExForDelOther1.txt
+user1@my_pc:zxc/root/Test2/$ cat ExForDelOther.txt
+1
+user1@my_pc:zxc/root/Test2/$ ExForDelOther.txt
+Unknown command.
+user1@my_pc:zxc/root/Test2/$ cat ExForDelOther.txt
+1
+user1@my_pc:zxc/root/Test2/$ cat ExForDelOther1.txt
+1
+user1@my_pc:/$ fd
+Unknown command.
+user1@my_pc:/$ в
+Unknown command.
+user1@my_pc:/$ э
+Unknown command.
+user1@my_pc:/$ ls
+zxc
+user1@my_pc:/$ cd zxc
+
+user1@my_pc:zxc/$ ld
+Unknown command.
+user1@my_pc:zxc/$ ls 
+
+root
+user1@my_pc:zxc/$  ls 
+Unknown command.
+user1@my_pc:zxc/$ ls
+
+root
+user1@my_pc:zxc/$ cd root
+
+user1@my_pc:zxc/root/$ ls
+
+Test1
+Test2
+Test3
+user1@my_pc:zxc/root/$ cd Test2
+
+user1@my_pc:zxc/root/Test2/$ ls
+
+ExForDelOther.txt
+ExForDelOther1.txt
+user1@my_pc:zxc/root/Test2/$ cat zxc/root/Test2/ExForDelOther.txt
+Error: file zxc/root/Test2/ExForDelOther.txt not found.
+user1@my_pc:zxc/root/Test2/$ ExForDelOther.txt
+Unknown command.
+user1@my_pc:zxc/root/Test2/$ cat ExForDelOther.txt
+1
+user1@my_pc:zxc/root/Test2/$ cat ExForDelOther
+Error: file ExForDelOther not found.
+user1@my_pc:zxc/root/Test2/$ cat ExForDelOther.txt
+1
+user1@my_pc:zxc/root/Test2/$ cat ExForDelOther.txt
+1
+user1@my_pc:zxc/root/Test2/$ cat ExForDelOther.txt
+1
+user1@my_pc:zxc/root/Test2/$ cat ExForDelOther.txt
+1
+user1@my_pc:/$ s
+Unknown command.
+user1@my_pc:/$ cd zxc
+
+user1@my_pc:zxc/$ cd root
+
+user1@my_pc:zxc/root/$ cd Test2
+
+user1@my_pc:zxc/root/Test2/$ cat try:
+        # ќткрываем и читаем файл
+        with open(filename, 'r') as file:
+            content = file.read()
+            self.display_output(content)
+    except FileNotFoundError:
+        self.display_output(f"cat: {filename}: No such file or directory")
+    except IsADirectoryError:
+        self.display_output(f"cat: {filename}: Is a directory")
+    except Exception as e:
+        self.display_output(f"cat: {filename}: {str(e)}")
+user1@my_pc:zxc/root/Test2/$ cat Ex
+user1@my_pc:zxc/root/Test2/$ ls
+
+ExForDelOther.txt
+ExForDelOther1.txt
+user1@my_pc:zxc/root/Test2/$ cat ExForDelOther.txt
