@@ -92,27 +92,23 @@ class Emulator:
         print(response)
         return response
 
-
     def cd(self, path):
         """
         Команда 'cd' позволяет перемещаться между директориями.
 
         :param path: Путь к новой директории
         """
-
         if path == "..":
             # Переход на уровень выше
             if self.current_directory != '/':
                 self.current_directory = os.path.dirname(self.current_directory.rstrip('/')) + '/'
                 self.absolute_path = remove_last_folder(self.absolute_path)
-                print(f"Новый абсолютный путь: {self.absolute_path}")
         else:
             # Переход в указанную директорию
-            new_directory = os.path.join(self.current_directory, path).lstrip('/')
-            if any(f.startswith(new_directory) for f in self.file_system):
+            new_directory = os.path.join(self.current_directory, path).lstrip('/').rstrip("/")
+            if any(f.startswith(new_directory) for f in self.file_system.keys()):
                 self.current_directory = new_directory.rstrip('/') + '/'
                 self.absolute_path = add_folder(self.absolute_path, path)
-                print(f"Новый абсолютный путь: {self.absolute_path}")
             else:
                 response = "Error: directory not found."
                 print(response)
@@ -126,15 +122,11 @@ class Emulator:
         :param filename: Имя файла для чтения
         :return: Содержимое файла или сообщение об ошибке
         """
-        file_path = os.path.join(self.absolute_path, filename)  # Абсолютный путь к файлу
-        if os.path.exists(file_path): #and os.path.isfile(file_path):  # Проверяем, существует ли файл и является ли он файлом
-            try:
-                with open(file_path, 'r') as f:
-                    return f.read()  # Возвращаем содержимое файла
-            except Exception as e:
-                return f"Ошибка при чтении файла: {e}"  # Возвращаем ошибку, если чтение не удалось
+        file_path = os.path.join(self.current_directory, filename)  # Путь в виртуальной системе
+        if file_path in self.file_system:  # Проверяем, существует ли файл в виртуальной системе
+            return self.file_system[file_path]  # Возвращаем содержимое файла
         else:
-            return f"Файл '{filename}' не найден по пути: {file_path}"
+            return f"Файл '{filename}' не найден в текущей директории: {file_path}"
 
     def echo(self, text):
         """Выводит текст."""
