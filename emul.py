@@ -1,8 +1,19 @@
 import os
+import string
 import zipfile
 import tkinter as tk
 from tkinter import scrolledtext
-from os import system
+import os
+import select
+import sys
+
+
+def add_folder(path, folder_name):
+    return os.path.join(path, folder_name)
+
+
+def remove_last_folder(path):
+    return os.path.dirname(path)
 
 
 class Emulator:
@@ -18,6 +29,7 @@ class Emulator:
         self.username = username
         self.hostname = hostname
         self.current_directory = '/'  # Текущая директория (начинаем с корня '/')
+        self.absolute_path = r"C:\Users\marka\Desktop\Konfig"
         self.zip_path = zip_path
         self.log_path = log_path
         self.file_system = {}  # Словарь для хранения распакованных файлов и папок
@@ -50,7 +62,7 @@ class Emulator:
                 for file in zip_ref.namelist():
                     # Удаляем начальные / для удобства работы с файлами
                     normalized_path = file.lstrip('/')
-                    self.file_system[normalized_path] = True  # Добавляем файлы и папки в словарь
+                    self.file_system[normalized_path] = zip_ref.read(file).decode('utf-8')  # Добавляем файлы и их содержимое в словарь
         else:
             print("Error: provided file is not a ZIP archive.")
 
@@ -80,21 +92,27 @@ class Emulator:
         print(response)
         return response
 
+
     def cd(self, path):
         """
         Команда 'cd' позволяет перемещаться между директориями.
 
         :param path: Путь к новой директории
         """
+
         if path == "..":
             # Переход на уровень выше
             if self.current_directory != '/':
                 self.current_directory = os.path.dirname(self.current_directory.rstrip('/')) + '/'
+                self.absolute_path = remove_last_folder(self.absolute_path)
+                print(f"Новый абсолютный путь: {self.absolute_path}")
         else:
             # Переход в указанную директорию
             new_directory = os.path.join(self.current_directory, path).lstrip('/')
             if any(f.startswith(new_directory) for f in self.file_system):
                 self.current_directory = new_directory.rstrip('/') + '/'
+                self.absolute_path = add_folder(self.absolute_path, path)
+                print(f"Новый абсолютный путь: {self.absolute_path}")
             else:
                 response = "Error: directory not found."
                 print(response)
@@ -102,45 +120,25 @@ class Emulator:
         return ""
 
     def cat(self, filename):
-        try:
-        # Открываем и читаем файл
-            with open(filename, 'r') as file:
-                content = file.read()
-                self.display_output(content)
-        except FileNotFoundError:
-            self.display_output(f"cat: {filename}: No such file or directory")
-        except IsADirectoryError:
-            self.display_output(f"cat: {filename}: Is a directory")
-        except Exception as e:
-            self.display_output(f"cat: {filename}: {str(e)}")
+        """
+        Команда 'cat' выводит содержимое файла по абсолютному пути.
+
+        :param filename: Имя файла для чтения
+        :return: Содержимое файла или сообщение об ошибке
+        """
+        file_path = os.path.join(self.absolute_path, filename)  # Абсолютный путь к файлу
+        if os.path.exists(file_path): #and os.path.isfile(file_path):  # Проверяем, существует ли файл и является ли он файлом
+            try:
+                with open(file_path, 'r') as f:
+                    return f.read()  # Возвращаем содержимое файла
+            except Exception as e:
+                return f"Ошибка при чтении файла: {e}"  # Возвращаем ошибку, если чтение не удалось
+        else:
+            return f"Файл '{filename}' не найден по пути: {file_path}"
 
     def echo(self, text):
         """Выводит текст."""
         return text
-
-    def _remove_from_zip(self, file_to_remove):
-        """
-        Метод для удаления файла или директории из ZIP архива.
-        """
-        temp_zip = self.zip_path + '.temp'  # Временный файл для нового архива
-        with zipfile.ZipFile(self.zip_path, 'r') as zip_ref:
-            with zipfile.ZipFile(temp_zip, 'w') as new_zip:
-                for item in zip_ref.infolist():
-                    # Проверяем, что файл или папка не совпадают с удаляемым
-                    if not item.filename.startswith(file_to_remove):
-                        new_zip.writestr(item, zip_ref.read(item.filename))
-        # Заменяем старый архив новым
-        os.replace(temp_zip, self.zip_path)
-
-
-
-    def exit_emulator(self):
-        """
-        Метод выхода из эмулятора. Вносим изменения прямо в архив.
-        """
-        print("All changes saved to the archive.")
-        exit()
-
 
 class EmulatorGUI:
     def __init__(self, emulator):
@@ -162,7 +160,7 @@ class EmulatorGUI:
         self.host_display.grid(row=2, column=0, sticky='w', padx=10, pady=5)
 
         # Поле для ввода команд
-        self.command_entry = tk.Entry(self.window, width=80, bg="black", fg="green", font=("Consolas", 12))
+        self.command_entry = tk.Entry(self.window, width=80, bg="black", fg="green", font=("Consolas", 12), insertbackground="green")
         self.command_entry.grid(row=1, column=0, padx=10, pady=5, sticky="ew")
 
         # Привязываем событие нажатия Enter
@@ -232,6 +230,7 @@ if __name__ == "__main__":
     hostname = "my_pc"
     zip_path = "zxc.zip"
     log_path = "emulator.log"
+    absolute_path = r"C:\Users\marka\Desktop\Konfig"
 
     # Создаем объект эмулятора
     emulator = Emulator(username, hostname, zip_path, log_path)
