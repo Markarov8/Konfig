@@ -103,9 +103,8 @@ Exiting emulator...
 ```
 
 ## Тестирование
-```bash
-
-```
+![Тест 1\2](https://i.imgur.com/9qHOYmT.png)
+![Тест 2\2](https://i.imgur.com/ARxbxwJ.png)
 
 ## Скриншот работы
 ![Скриншот](https://i.imgur.com/UnalKr4.png)
