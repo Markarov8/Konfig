@@ -100,8 +100,12 @@ Test3
 HAHHAHAHAHHAHAHA
 >user1@my_pc:zxc/root/Test1/$ exit
 Exiting emulator...
+```
+
+## Тестирование
+```bash
 
 ```
 
 ## Скриншот работы
-![Скриншот](https://imgur.com/a/Nc7JU29)
+![Скриншот](https://i.imgur.com/UnalKr4.png)
