@@ -104,4 +104,4 @@ Exiting emulator...
 ```
 
 ## Скриншот работы
-[https://imgur.com/a/Nc7JU29]
+![https://imgur.com/a/Nc7JU29]
