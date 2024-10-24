@@ -105,7 +105,7 @@ class Emulator:
                 self.absolute_path = remove_last_folder(self.absolute_path)
         else:
             # Переход в указанную директорию
-            new_directory = os.path.join(self.current_directory, path).lstrip('/').rstrip("/")
+            new_directory = os.path.join(self.current_directory, path).lstrip('/')
             if any(f.startswith(new_directory) for f in self.file_system.keys()):
                 self.current_directory = new_directory.rstrip('/') + '/'
                 self.absolute_path = add_folder(self.absolute_path, path)
@@ -140,6 +140,8 @@ class EmulatorGUI:
         self.window = tk.Tk()
         self.window.title("Linux Emulator")
         self.window.configure(bg="black")  # Темная тема
+
+        self.window.minsize(900, 500)
 
         # Создаем область вывода
         self.output_text = scrolledtext.ScrolledText(self.window, width=80, height=20, bg="black", fg="green",
