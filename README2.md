@@ -26,7 +26,8 @@
 1. Убедитесь, что у вас есть исправный путь к репозиторию apk.
 2. Запустите скрипт через командную строку:
 ```bash
- python C:\Users\marka\PycharmProjects\Конфиг2\.venv\dep_visualizer.py  --visualizer "C:/Program Files/Graphviz/bin/dot.exe"  --package bash  --depth 100  --repository https://dl-cdn.alpinelinux.org/alpine/latest-stable/main/x86_64
+ python  C:\Users\marka\PycharmProjects\Конфиг2\.venv\dep_visualizer.py --visualizer "C:/Program Files/Graphviz/bin/dot.exe"  --package curl --repository https://dl-cdn.alpinelinux.org/alpine/latest-stable/main/x86_64 --depth 5
+
 ```
 
 ## Тестирование
