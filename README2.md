@@ -30,6 +30,6 @@
 ```
 
 ## Тестирование
-![Тест 1\2](https://i.imgur.com/eYFtnjf.png)
-![Тест 2\2](https://i.imgur.com/t6xKL1H.png)
+![Тест 1\2](https://i.imgur.com/GyzG5dM.png)
+![Тест 2\2](https://i.imgur.com/efEUQ76.png)
 
