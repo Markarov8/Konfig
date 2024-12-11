@@ -27,4 +27,4 @@ py -3 "C:\Users\marka\PycharmProjects\Config 3\Config.py" "C:\Users\marka\Deskto
 
 ## Тестирование
 ![Тест](https://i.imgur.com/ND4gZst.png)
-
+![Тест](https://i.imgur.com/CL0cqpa.png)
